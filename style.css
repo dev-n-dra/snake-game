@@ -24,7 +24,9 @@ h2 {
     margin: 0.2em;
 }
 
-.container {}
+.container {
+    width: 100%;
+}
 
 .grid {
     max-width: 404px;
