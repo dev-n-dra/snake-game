@@ -8,7 +8,7 @@
 
 body {
     color: black;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     background: url(img/bg.jpg) no-repeat;
     background-position: center;
@@ -27,8 +27,9 @@ h2 {
 .container {}
 
 .grid {
-    width: 404px;
-    height: 404px;
+    max-width: 404px;
+    width: 90%;
+    aspect-ratio: 1/1;
     margin: 1em auto;
     border-radius: 10px;
     border: 2px solid white;
@@ -40,8 +41,8 @@ h2 {
 }
 
 .square {
-    width: 20px;
-    height: 20px;
+    width: 5%;
+    aspect-ratio: 1/1;
 }
 
 .snake {
